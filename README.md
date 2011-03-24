@@ -5,7 +5,7 @@ mailplane_clean.css is a custom CSS style sheet for the [Mailplane](http://mailp
 
 It was originally developed by [Jim Mitchell](http://jimmitchell.org/projects/mailplane_clean_css/)
 
-If gmail is too heavy on your eyes you should give this custom stylesheet a try. It reduces the gmail experience in your Mailplane window to the necessary minimum increasing overview and usability.
+If the gmail interface is too busy for you, give this custom stylesheet a try. It reduces the gmail experience in your Mailplane window to the necessary minimum increasing overview and usability.
 
 Usage
 -----

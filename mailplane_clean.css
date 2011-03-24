@@ -22,8 +22,18 @@ body {
 }
 
 
-/* hide the header links [start page, mail, calendar, etc.] */
-#gbar, #guser {display: none;}
+/* hide the header links [mail, calendar, etc.] */
+#gbar {display: none;}
+
+/* hide all user links in header [email address, settings, help, logout] */
+#guser span {display:none;} /* hide all dividers ( | ) */ 
+#guser b {display: none;} /* hide email address */
+#guser span[id=":r2"], #guser span[id=":rl"], #guser span[id="80:la:ico"] img {display: none;} /* hide labs icon */
+#guser a[id=":r7"] {padding:5px;} /* show settings */
+/*#guser a[id=":r7"] {display: none;} /* hide settings */
+#guser span[id=":r5"] {display: none;} /* hide help */
+#guser a[id=":r3"] {display: none;} /* hide logout */
+
 .nH.qp {
 	border:none;
 	height:12px;
@@ -117,37 +127,31 @@ body {
 input[id=":re"] {width: 185px;}
 
 
-/* reduce "select:" and "refresh" link font sizes */
-.nH + .nH .yV {
-	font-size: 75% !important;
-}
-
-
 /* hide bottom row of buttons */
 .VP5otc-U4m8q, .AY, .J-J5-Ji .AP, .nH .iE {
 	display: none !important;
 }
 
+
 /* hide contacts & tasks links */
-/* Old style (Google Apps)... */
-span[id=":re"], span[id=":rf"] {
+div.nH.pp.T0 {
 	display: none !important;
 }
 
-/* New style... */
-div.nH.pp.T0, div.nH.T4.pp {
+/* hide search the web */
+div[id=":rh"] {
 	display: none !important;
 }
 
-
-/* hide search the web, search options & create a filter */
-div[id=":rj"], div[id=":rh"], span[id=":rg"] {
+/* hide create a filter */
+span[id=":rf"] {
 	display: none !important;
 }
 
-
-/* hide chat */
-div.nH.s {display: none !important;}
+/* hide search options */
+span[id=":rg"] {
+	display: none !important;
+}
 
 
 /* increase width and height of response text area in messages */
