@@ -44,111 +44,38 @@ body {
 	display: none !important;
 }
 
-/* Hide "Check Spelling... when composing mail"*/
+/* Hide "Check Spelling..." when composing mail (not needed as Mac OS is doing the spell checking anyways) */
 .fA {
 	display: none !important;
 }
 
-/* remove ads & expand message body to fill, reposition window & print links as buttons */
+/* remove empty space for bottom ad */
 .iY .Bu:first-child + .Bu, div.MI {display: none !important;}
-.iY {width: 100% !important;}
-.iY .Bu:last-child .nH > .nH > .nH:first-child {
-	position: absolute !important;
-	left: 12px!important;
-	top: -73px !important;
-	width: 100% !important;
-	font-size: 70% !important;
-}
-.iY .Bu:last-child .hj {
-	font-size: 100% !important;
-	margin: 0 auto !important;
-	float: right !important;
-	padding: 5px 8px 0 !important;
-	position: relative;
-	border-style: solid !important;
-	border-width: 0 !important;
-	border-bottom-width: 0 !important;
-	-webkit-border-top-left-radius:3px !important;
-	-webkit-border-top-right-radius:3px !important; 
-}
-.iY .Bu:last-child > .nH {
-	height: 0 !important;
-	overflow: hidden !important;
-	width: 2px !important;
-}
-.iY .Bu:last-child .hj:hover {z-index: 2 !important;}
-.B .hj, .C .hj {
-	background: #fff !important;
-	border-color: none !important;
-	}
-.iC .hj {
-	font-size: 70% !important;
-	margin-right: 4px !important;
-}
-.hk {
-	float: left !important;
-	padding: 0 !important;
-	display:none;
-}
-.hk span {
-	display: block !important;
-	width: auto !important;
-	height: 1.7em !important;
-	line-height: 1.7em !important;
-	padding: 0 6px !important;
-	margin-left: 4px !important;
-	margin-top: 4px !important;
-	border: 1px solid #bbb !important;
-	background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAoCAAAAAAa3c+rAAAAAXNSR0IArs4c6QAAABJJREFUCNdj+MnEQBT8CsUEIACgKQMyxVIz6AAAAABJRU5ErkJggg==") repeat-x left center !important;
-	color: #000 !important;
-	-webkit-border-radius:3px !important;
-}
-.hk u {text-decoration: none !important;}
-.hk img {margin-bottom: 2px !important;}
-.hk span:hover {border-color: #939393 !important;}
-.hk span:active {
-	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAoCAAAAAAa3c+rAAAAAXNSR0IArs4c6QAAABVJREFUCNdjeMzEQDTkZmJg+IlfDQBx9QI0/iX6wgAAAABJRU5ErkJggg==") !important;
-	border-top-color: #444 !important;
-	border-bottom-color: #444 !important;
-}
-.b8, .cd, .cc {padding: 3px 0 !important;}
-.b8 .ve, .cd .ve, .cc .ve {
-	margin-left: 10px !important;
-	position: relative !important;
-	z-index: 1 !important;
-	background-color: transparent !important;
-	border: 2px solid #fff !important;
-	border-collapse: separate !important;
-	-webkit-border-radius:6px !important;
-}
-
 
 /* reduce search field width a little */
 input[id=":re"] {width: 185px;}
-
 
 /* hide bottom row of buttons */
 .VP5otc-U4m8q, .AY, .J-J5-Ji .AP, .nH .iE {
 	display: none !important;
 }
 
-
 /* hide contacts & tasks links */
 div.nH.pp.T0 {
 	display: none !important;
 }
 
-/* hide search the web */
+/* hide "search the web" button */
 div[id=":rh"] {
 	display: none !important;
 }
 
-/* hide create a filter */
+/* hide "create a filter" link */
 span[id=":rf"] {
 	display: none !important;
 }
 
-/* hide search options */
+/* hide "search options" link */
 span[id=":rg"] {
 	display: none !important;
 }
