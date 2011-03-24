@@ -32,7 +32,7 @@ body {
 #guser a[id=":r7"] {padding:5px;} /* show settings */
 /*#guser a[id=":r7"] {display: none;} /* hide settings */
 #guser span[id=":r5"] {display: none;} /* hide help */
-#guser a[id=":r3"] {display: none;} /* hide logout */
+#guser a[href^="?logout"] {display: none;} /* hide logout */
 
 .nH.qp {
 	border:none;
@@ -47,9 +47,10 @@ body {
 /* Hide "Check Spelling..." when composing mail (not needed as Mac OS is doing the spell checking anyways) */
 .fA {display: none !important;}
 
-/* Hide ad on right hand side (uncomment this block if you do _not_ use the rapportive plugin, which replaces this ad) */
-/*
+/* remove empty space for bottom ad */
 .iY .Bu:first-child + .Bu, div.MI {display: none !important;}
+
+/* Hide ad on right hand side (uncomment this block if you do _not_ use the rapportive plugin, which replaces this ad) */
 .iY {width: 100% !important;}
 .iY .Bu:last-child .nH > .nH > .nH:first-child {
 	position: absolute !important;
@@ -76,10 +77,6 @@ body {
 	width: 2px !important;
 }
 .iY .Bu:last-child .hj:hover {z-index: 2 !important;}
-*/
-
-/* remove empty space for bottom ad */
-.iY .Bu:first-child + .Bu, div.MI {display: none !important;}
 
 /* reduce search field width a little */
 input[id=":re"] {width: 185px;}
