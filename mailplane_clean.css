@@ -45,9 +45,38 @@ body {
 }
 
 /* Hide "Check Spelling..." when composing mail (not needed as Mac OS is doing the spell checking anyways) */
-.fA {
-	display: none !important;
+.fA {display: none !important;}
+
+/* Hide ad on right hand side (uncomment this block if you do _not_ use the rapportive plugin, which replaces this ad) */
+/*
+.iY .Bu:first-child + .Bu, div.MI {display: none !important;}
+.iY {width: 100% !important;}
+.iY .Bu:last-child .nH > .nH > .nH:first-child {
+	position: absolute !important;
+	left: 12px!important;
+	top: -73px !important;
+	width: 100% !important;
+	font-size: 70% !important;
 }
+.iY .Bu:last-child .hj {
+	font-size: 100% !important;
+	margin: 0 auto !important;
+	float: right !important;
+	padding: 5px 8px 0 !important;
+	position: relative;
+	border-style: solid !important;
+	border-width: 0 !important;
+	border-bottom-width: 0 !important;
+	-webkit-border-top-left-radius:3px !important;
+	-webkit-border-top-right-radius:3px !important; 
+}
+.iY .Bu:last-child > .nH {
+	height: 0 !important;
+	overflow: hidden !important;
+	width: 2px !important;
+}
+.iY .Bu:last-child .hj:hover {z-index: 2 !important;}
+*/
 
 /* remove empty space for bottom ad */
 .iY .Bu:first-child + .Bu, div.MI {display: none !important;}
